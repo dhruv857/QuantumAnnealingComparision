@@ -1,0 +1,28 @@
+environment:
+  matrix:
+    - PYTHON: "C:\\Python27"
+    - PYTHON: "C:\\Python27-x64"
+    - PYTHON: "C:\\Python34"
+    - PYTHON: "C:\\Python34-x64"
+    - PYTHON: "C:\\Python35"
+    - PYTHON: "C:\\Python35-x64"
+    - PYTHON: "C:\\Python36"
+    - PYTHON: "C:\\Python36-x64"
+    - PYTHON: "C:\\Python37"
+    - PYTHON: "C:\\Python37-x64"
+
+matrix:
+  fast_finish: true
+
+cache:
+  - '%PYTHON%\Lib\site-packages -> requirements.txt, tests\requirements.txt'
+  - '%AppData%\pip-cache'
+
+build_script:
+  - "%PYTHON%\\python.exe -m pip install -r tests\\requirements.txt --cache-dir %AppData%\\pip-cache"
+
+before_test:
+  - "%PYTHON%\\python.exe -m pip install ."
+
+test_script:
+  - "%PYTHON%\\python.exe -m unittest discover"

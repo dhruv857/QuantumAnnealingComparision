@@ -1,0 +1,138 @@
+\documentclass[conference]{IEEEtran}
+\IEEEoverridecommandlockouts
+% The preceding line is only needed to identify funding in the first footnote. If that is unneeded, please comment it out.
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\usepackage{url}
+\def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
+    T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
+
+
+\begin{document}
+
+\title{Quantum Annealing: comparision on different platforms}
+
+\author{\IEEEauthorblockN{Dhruvil Gandhi}
+\IEEEauthorblockA{\textit{Seidenberg School of Computer Science and Information Systems} \\
+\textit{Pace University}\\
+New York, USA \\
+dgandhi@pace.edu}
+}
+
+\maketitle
+
+% \begin{abstract}
+% This document is a model and instructions for \LaTeX.
+% This and the IEEEtran.cls file define the components of your paper [title, text, heads, etc.]. *CRITICAL: Do Not Use Symbols, Special Characters, Footnotes, 
+% or Math in Paper Title or Abstract.
+% \end{abstract}
+
+% \begin{IEEEkeywords}
+% component, formatting, style, styling, insert
+% \end{IEEEkeywords}
+
+\section{Introduction}
+
+Quantum computing is an up and coming technology which has gained a lot of potential and advancement in recent times. With companies like IBM, D-Wave, Google etc. allowing public access to quantum computing resources and limitation on different approaches, there are numerous different algorithms and use cases that can be implemented and quantum supremacy over classical computing be achieved. I accessed different platforms and approaches of quantum computing. Since gate based quantum computing has limited number of quantum bits or qubits, I was particularly interested in quantum annealing approach. 
+
+Through out the paper, I talk about the general concept of quantum annealing, how is it implemented and sample problems on D-Wave's quantum computer and other universal quantum quantum computers that allow quantum annealing. Due to the difference in nature of quantum bits in different approach and technology used by different companies, there are different number of qubits for different systems. 
+
+Section 1 describes what are different approaches to quantum computing. Section 2 and 3 shows how quantum annealing works and how it can be used for different use case. Section 4 shows application example on D-Wave systems and possible implementation on other computers that are in development and were infeasible during the time. Section 5 compares the outcome and future implementations are suggested.
+
+\begin{thebibliography}{00}
+\bibitem{b1} G. Eason, B. Noble, and I. N. Sneddon, ``On certain integrals of Lipschitz-Hankel type involving products of Bessel functions,'' Phil. Trans. Roy. Soc. London, vol. A247, pp. 529--551, April 1955.
+\bibitem{b2} Fujitsu Digital Annealer \url{https://www.fujitsu.com/global/digitalannealer/superiority/}
+\bibitem{b3} @article{46227,
+title	= {Characterizing Quantum Supremacy in Near-Term Devices},
+author	= {Sergio Boixo and Sergei Isakov and Vadim Smelyanskiy and Ryan Babbush and Nan Ding and Zhang Jiang and Michael J. Bremner and John Martinis and Hartmut Neven},
+year	= {2018},
+URL	= {https://www.nature.com/articles/s41567-018-0124-x},
+journal	= {Nature Physics},
+pages	= {595–600},
+volume	= {14}
+}
+
+
+\bibitem{b4} @article{46227,
+title	= {Characterizing Quantum Supremacy in Near-Term Devices},
+author	= {Sergio Boixo and Sergei Isakov and Vadim Smelyanskiy and Ryan Babbush and Nan Ding and Zhang Jiang and Michael J. Bremner and John Martinis and Hartmut Neven},
+year	= {2018},
+URL	= {https://www.nature.com/articles/s41567-018-0124-x},
+journal	= {Nature Physics},
+pages	= {595–600},
+volume	= {14}
+}
+
+
+\bibitem{b5} @inproceedings{43345,
+title	= {Quantum Algorithms for Discrete Optimization},
+author	= {Sergio Boixo and Rolando Somma},
+year	= {2015},
+booktitle	= {Quantum Optimization: Fields Institute Communications}
+}
+
+
+\bibitem{b6} @incollection{42884,
+title	= {Quantum Algorithms for Simulated Annealing},
+author	= {Sergio Boixo and Rolando Somma},
+year	= {2014},
+booktitle	= {Encyclopedia of  Algorithms}
+}
+
+
+
+
+\bibitem{b7} https://arxiv.org/abs/1712.05642
+
+\bibitem{b8} https://arxiv.org/abs/1712.07326
+
+\bibitem {b9} \url{https://www.researchgate.net/profile/Bikash_Behera4/publication/330216616_First_Experimental_Demonstration_of_Multi-particle_Quan-tum_Tunneling_in_IBM_Quantum_Computer/links/5c348f99a6fdccd6b59b2be8/First-Experimental-Demonstration-of-Multi-particle-Quan-tum-Tunneling-in-IBM-Quantum-Computer.pdf}
+
+\bibitem{b8} @article{Trummer:2016:MQO:2947618.2947621,
+author = {Trummer, Immanuel and Koch, Christoph},
+title = {Multiple Query Optimization on the D-Wave 2X Adiabatic Quantum Computer},
+journal = {Proc. VLDB Endow.},
+
+volume = {9},
+number = {9},
+month = may,
+year = {2016},
+issn = {2150-8097},
+pages = {648--659},
+numpages = {12},
+url = {http://dx.doi.org/10.14778/2947618.2947621},
+doi = {10.14778/2947618.2947621},
+acmid = {2947621},
+publisher = {VLDB Endowment},
+} 
+
+\bibitem{b10} @inproceedings{Ushijima-Mwesigwa:2017:GPU:3149526.3149531,
+author = {Ushijima-Mwesigwa, Hayato and Negre, Christian F. A. and Mniszewski, Susan M.},
+title = {Graph Partitioning Using Quantum Annealing on the D-Wave System},
+booktitle = {Proceedings of the Second International Workshop on Post Moores Era Supercomputing},
+series = {PMES'17},
+year = {2017},
+isbn = {978-1-4503-5126-3},
+location = {Denver, CO, USA},
+pages = {22--29},
+numpages = {8},
+url = {http://doi.acm.org/10.1145/3149526.3149531},
+doi = {10.1145/3149526.3149531},
+acmid = {3149531},
+publisher = {ACM},
+address = {New York, NY, USA},
+keywords = {Community detection, Graph-partitioning, Quantum Annealing},
+} 
+
+\bibitem{b11} \url{https://www.frontiersin.org/articles/10.3389/fict.2017.00029/full}
+
+\bibitem{b12}A cross-disciplinary introduction to quantum annealing-based algorithms, Contemporary Physics, 59:2, 174-197, DOI: 10.1080/00107514.2018.1450720
+
+
+\end{thebibliography}
+
+\end{document}

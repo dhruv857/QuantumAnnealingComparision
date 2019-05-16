@@ -1,0 +1,18 @@
+Running on QPU
+{'numberOfReads': 50,
+ 'results': [{'a': 7,
+              'b': 7,
+              'numOfOccurrences': 47,
+              'percentageOfOccurrences': 94.0,
+              'valid': False},
+             {'a': 7,
+              'b': 5,
+              'numOfOccurrences': 2,
+              'percentageOfOccurrences': 4.0,
+              'valid': False},
+             {'a': 5,
+              'b': 7,
+              'numOfOccurrences': 1,
+              'percentageOfOccurrences': 2.0,
+              'valid': False}],
+ 'timing': {'actual': {'qpuProcessTime': 15903}}}

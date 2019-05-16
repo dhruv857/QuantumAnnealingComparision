@@ -1,0 +1,14 @@
+[run]
+# omit virtualenv, test files, package info
+omit:
+    env/*
+    */tests/*
+    hybrid/package_info.py
+source: hybrid
+
+[report]
+exclude_lines:
+    pragma: no cover
+    raise NotImplementedError
+    if __name__ == .__main__.:
+

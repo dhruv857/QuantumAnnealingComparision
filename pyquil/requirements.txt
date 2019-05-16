@@ -1,0 +1,26 @@
+# runtime deps
+numpy
+antlr4-python3-runtime
+requests
+six
+networkx >= 2.0.0
+
+# rigetti packages
+rpcq >= 2.2.1
+
+# test deps
+pytest
+pytest-timeout
+requests-mock
+flake8
+tox
+
+# docs
+sphinx
+sphinx_rtd_theme
+sphinx_autodoc_typehints
+ipykernel
+nbsphinx
+
+# depdendency of contextvars, which we vendor
+immutables==0.6

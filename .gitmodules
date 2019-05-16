@@ -1,0 +1,9 @@
+[submodule "pyquil"]
+	path = pyquil
+	url = git@github.com:rigetti/pyquil.git
+[submodule "demos"]
+	path = demos
+	url = git@github.com:dwavesystems/demos.git
+[submodule "dwave-hybrid"]
+	path = dwave-hybrid
+	url = git@github.com:dwavesystems/dwave-hybrid.git
