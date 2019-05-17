@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  16 MAY 2019 12:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  17 MAY 2019 14:03
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/Users/dhruv/Projects/PHD_projs/annealing-comparision/poster/main
+**/Users/dhruv/Projects/PHD_projs/annealing-comparision/poster/main.tex
 (/Users/dhruv/Projects/PHD_projs/annealing-comparision/poster/main.tex
 LaTeX2e <2018-04-01> patch level 2
 Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
@@ -507,7 +507,7 @@ Package: amsthm 2017/10/31 v2.20.4
 ) (/usr/local/texlive/2018/texmf-dist/tex/latex/beamer/beamerbasethemes.sty)) (/usr/local/texlive/2018/texmf-dist/tex/latex/beamer/beamerthemedefault.sty (/usr/local/texlive/2018/texmf-dist/tex/latex/beamer/beamerfontthemedefault.sty) (/usr/local/texlive/2018/texmf-dist/tex/latex/beamer/beamercolorthemedefault.sty) (/usr/local/texlive/2018/texmf-dist/tex/latex/beamer/beamerinnerthemedefault.sty
 \beamer@dima=\dimen188
 \beamer@dimb=\dimen189
-) (/usr/local/texlive/2018/texmf-dist/tex/latex/beamer/beamerouterthemedefault.sty))) (./beamerposter.sty
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/beamer/beamerouterthemedefault.sty))) (/Users/dhruv/Projects/PHD_projs/annealing-comparision/poster/beamerposter.sty
 Package: 2008/03/11. v.1.07. beamerposter: latex-beamer poster extension
 Package: beamerposter 2008/03/11. v.1.07. beamerposter: latex-beamer poster extension
 (/usr/local/texlive/2018/texmf-dist/tex/latex/xkeyval/xkeyval.sty
@@ -561,7 +561,7 @@ Package: fp-eqn 1995/04/03
 Package: fp-upn 1996/10/21
 ) (/usr/local/texlive/2018/texmf-dist/tex/latex/fp/fp-eval.sty
 Package: fp-eval 1995/04/03
-)) ( FP-UPN ( FP-MUL ) ( FP-ROUND ) ) ( FP-UPN ( FP-MUL ) ( FP-ROUND ) ) ( FP-UPN ( FP-MUL ) ( FP-ROUND ) ) ( FP-UPN ( FP-MUL ) ( FP-ROUND ) ) ( FP-UPN ( FP-MUL ) ( FP-ROUND ) ) ( FP-UPN ( FP-MUL ) ( FP-ROUND ) ) ( FP-UPN ( FP-MUL ) ( FP-ROUND ) ) ( FP-UPN ( FP-MUL ) ( FP-ROUND ) ) ( FP-UPN ( FP-MUL ) ( FP-ROUND ) ) ( FP-UPN ( FP-MUL ) ( FP-ROUND ) ) ( FP-UPN ( FP-MUL ) ( FP-ROUND ) ) ( FP-UPN ( FP-MUL ) ( FP-ROUND ) ) ( FP-UPN ( FP-MUL ) ( FP-ROUND ) ) ( FP-UPN ( FP-MUL ) ( FP-ROUND ) ) ( FP-UPN ( FP-MUL ) ( FP-ROUND ) ) ( FP-UPN ( FP-MUL ) ( FP-ROUND ) ) ( FP-UPN ( FP-MUL ) ( FP-ROUND ) ) ( FP-UPN ( FP-MUL ) ( FP-ROUND ) ) ( FP-UPN ( FP-MUL ) ( FP-ROUND ) ) ( FP-UPN ( FP-MUL ) ( FP-ROUND ) ) ( FP-UPN ( FP-MUL ) ( FP-ROUND ) ) ( FP-UPN ( FP-MUL ) ( FP-ROUND ) ) ( FP-UPN ( FP-MUL ) ( FP-ROUND ) ) ( FP-UPN ( FP-MUL ) ( FP-ROUND ) )) (./beamerthemeconfposter.sty
+)) ( FP-UPN ( FP-MUL ) ( FP-ROUND ) ) ( FP-UPN ( FP-MUL ) ( FP-ROUND ) ) ( FP-UPN ( FP-MUL ) ( FP-ROUND ) ) ( FP-UPN ( FP-MUL ) ( FP-ROUND ) ) ( FP-UPN ( FP-MUL ) ( FP-ROUND ) ) ( FP-UPN ( FP-MUL ) ( FP-ROUND ) ) ( FP-UPN ( FP-MUL ) ( FP-ROUND ) ) ( FP-UPN ( FP-MUL ) ( FP-ROUND ) ) ( FP-UPN ( FP-MUL ) ( FP-ROUND ) ) ( FP-UPN ( FP-MUL ) ( FP-ROUND ) ) ( FP-UPN ( FP-MUL ) ( FP-ROUND ) ) ( FP-UPN ( FP-MUL ) ( FP-ROUND ) ) ( FP-UPN ( FP-MUL ) ( FP-ROUND ) ) ( FP-UPN ( FP-MUL ) ( FP-ROUND ) ) ( FP-UPN ( FP-MUL ) ( FP-ROUND ) ) ( FP-UPN ( FP-MUL ) ( FP-ROUND ) ) ( FP-UPN ( FP-MUL ) ( FP-ROUND ) ) ( FP-UPN ( FP-MUL ) ( FP-ROUND ) ) ( FP-UPN ( FP-MUL ) ( FP-ROUND ) ) ( FP-UPN ( FP-MUL ) ( FP-ROUND ) ) ( FP-UPN ( FP-MUL ) ( FP-ROUND ) ) ( FP-UPN ( FP-MUL ) ( FP-ROUND ) ) ( FP-UPN ( FP-MUL ) ( FP-ROUND ) ) ( FP-UPN ( FP-MUL ) ( FP-ROUND ) )) (/Users/dhruv/Projects/PHD_projs/annealing-comparision/poster/beamerthemeconfposter.sty
 Package: beamerthemeconfposter 
  (/usr/local/texlive/2018/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty (/usr/local/texlive/2018/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
 Package: pgf 2015/08/07 v3.0.1a (rcs-revision 1.15)
@@ -869,7 +869,7 @@ Package: booktabs 2016/04/27 v1.618033 publication quality tables
 \@thisruleclass=\count178
 \@lastruleclass=\count179
 \@thisrulewidth=\dimen271
-) (./main.aux)
+) (/Users/dhruv/Projects/PHD_projs/annealing-comparision/poster/main.aux)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 74.
@@ -967,7 +967,7 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 74.
 LaTeX Info: Redefining \pageref on input line 74.
 LaTeX Info: Redefining \nameref on input line 74.
- (./main.out) (./main.out)
+ (/Users/dhruv/Projects/PHD_projs/annealing-comparision/poster/main.out) (/Users/dhruv/Projects/PHD_projs/annealing-comparision/poster/main.out)
 \@outlinefile=\write5
 \openout5 = `main.out'.
 
@@ -985,7 +985,7 @@ Dictionary: translator-numbers-dictionary, Language: English
 Dictionary: translator-theorem-dictionary, Language: English 
 ) ABD: EverySelectfont initializing macros
 LaTeX Info: Redefining \selectfont on input line 74.
- (./main.nav)
+ (/Users/dhruv/Projects/PHD_projs/annealing-comparision/poster/main.nav)
 LaTeX Font Info:    Calculating math sizes for size <17.86> on input line 74.
 LaTeX Font Info:    Try loading font information for OT1+lmr on input line 74.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/lm/ot1lmr.fd
@@ -1007,50 +1007,61 @@ LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <17.86> not available
 LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <12.50194> not available
 (Font)              size <12> substituted on input line 74.
 
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 354.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 330.
 (/usr/local/texlive/2018/texmf-dist/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Calculating math sizes for size <37.03> on input line 354.
+LaTeX Font Info:    Calculating math sizes for size <37.03> on input line 330.
 
 
 LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <37.03> not available
-(Font)              size <24.88> substituted on input line 354.
+(Font)              size <24.88> substituted on input line 330.
 
 
 LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <25.92088> not available
-(Font)              size <24.88> substituted on input line 354.
+(Font)              size <24.88> substituted on input line 330.
 
 
 LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <18.515> not available
-(Font)              size <17.28> substituted on input line 354.
+(Font)              size <17.28> substituted on input line 330.
 
-<placeholder.jpg, id=16, 351.3125pt x 193.72375pt>
-File: placeholder.jpg Graphic file (type jpg)
-<use placeholder.jpg>
-Package pdftex.def Info: placeholder.jpg  used on input line 354.
-(pdftex.def)             Requested size: 610.54266pt x 336.72778pt.
-File: placeholder.jpg Graphic file (type jpg)
-<use placeholder.jpg>
-Package pdftex.def Info: placeholder.jpg  used on input line 354.
-(pdftex.def)             Requested size: 610.54266pt x 336.72778pt.
-(./main.bbl)
-<logo.png, id=19, 1401.235pt x 521.95pt>
-File: logo.png Graphic file (type png)
-<use logo.png>
-Package pdftex.def Info: logo.png  used on input line 354.
-(pdftex.def)             Requested size: 305.2655pt x 113.70638pt.
-File: logo.png Graphic file (type png)
-<use logo.png>
-Package pdftex.def Info: logo.png  used on input line 354.
-(pdftex.def)             Requested size: 305.2655pt x 113.70638pt.
+<uqc.png, id=15, 1125.20375pt x 534.99875pt>
+File: uqc.png Graphic file (type png)
+<use uqc.png>
+Package pdftex.def Info: uqc.png  used on input line 330.
+(pdftex.def)             Requested size: 610.54266pt x 290.29095pt.
 
-Overfull \hbox (4.99402pt too wide) detected at line 354
+Overfull \hbox (34.74338pt too wide) detected at line 330
+ []$[]  \OMS/lmsy/m/n/37.03 H[]\OT1/lmr/m/n/37.03 (\OML/lmm/m/it/37.03 s\OT1/lmr/m/n/37.03 ) = [] [] ^^A(\OML/lmm/m/it/37.03 s\OT1/lmr/m/n/37.03 )\OML/lmm/m/it/37.03 ^^[[] \OT1/lmr/m/n/37.03 + \OML/lmm/m/it/37.03 ^^O\OT1/lmr/m/n/37.03 (\OML/lmm/m/it/37.03 s\OT1/lmr/m/n/37.03 )(\OMS/lmsy/m/n/37.03 ^^@ [] \OML/lmm/m/it/37.03 h[]^^[[] \OT1/lmr/m/n/37.03 + [] \OML/lmm/m/it/37.03 J[]^^[[]^^[[]\OT1/lmr/m/n/37.03 )  $ 
+ []
+
+<dwaveresult.png, id=16, 555.07375pt x 233.87375pt>
+File: dwaveresult.png Graphic file (type png)
+<use dwaveresult.png>
+Package pdftex.def Info: dwaveresult.png  used on input line 330.
+(pdftex.def)             Requested size: 610.54266pt x 257.24762pt.
+<rigettisampler.png, id=18, 356.33125pt x 333.245pt>
+File: rigettisampler.png Graphic file (type png)
+<use rigettisampler.png>
+Package pdftex.def Info: rigettisampler.png  used on input line 330.
+(pdftex.def)             Requested size: 610.54266pt x 571.0142pt.
+<gates.png, id=19, 466.74374pt x 361.35pt>
+File: gates.png Graphic file (type png)
+<use gates.png>
+Package pdftex.def Info: gates.png  used on input line 330.
+(pdftex.def)             Requested size: 610.54266pt x 472.73238pt.
+<seidenberg.jpg, id=22, 251.4996pt x 264.0264pt>
+File: seidenberg.jpg Graphic file (type jpg)
+<use seidenberg.jpg>
+Package pdftex.def Info: seidenberg.jpg  used on input line 330.
+(pdftex.def)             Requested size: 305.2655pt x 320.50829pt.
+
+Overfull \hbox (4.99402pt too wide) detected at line 330
 [][][] [][][][][][][][][] [][][][][][][][][] [][][][][][][][][] [][][][][][][][][] [][][][][][][][][] [][][][][][][] 
  []
 
 
-Overfull \vbox (55.39497pt too high) detected at line 354
+Overfull \vbox (1.1114pt too high) detected at line 330
  []
 
 
@@ -1060,7 +1071,7 @@ Overfull \hbox (88.20334pt too wide) has occurred while \output is active
 
 [1{/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
- <./placeholder.jpg> <./logo.png>]
+ </Users/dhruv/Projects/PHD_projs/annealing-comparision/poster/uqc.png> </Users/dhruv/Projects/PHD_projs/annealing-comparision/poster/dwaveresult.png> </Users/dhruv/Projects/PHD_projs/annealing-comparision/poster/rigettisampler.png> </Users/dhruv/Projects/PHD_projs/annealing-comparision/poster/gates.png> </Users/dhruv/Projects/PHD_projs/annealing-comparision/poster/seidenberg.jpg>]
 \tf@nav=\write6
 \openout6 = `main.nav'.
 
@@ -1070,11 +1081,11 @@ Overfull \hbox (88.20334pt too wide) has occurred while \output is active
 \tf@snm=\write8
 \openout8 = `main.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 356.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 356.
- (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 356.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 356.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 332.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 332.
+ (/Users/dhruv/Projects/PHD_projs/annealing-comparision/poster/main.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 332.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 332.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
@@ -1084,18 +1095,18 @@ LaTeX Font Warning: Size substitutions with differences
 
  ) 
 Here is how much of TeX's memory you used:
- 22453 strings out of 492649
- 438379 string characters out of 6129622
- 607601 words of memory out of 5000000
- 25788 multiletter control sequences out of 15000+600000
- 78712 words of font info for 67 fonts, out of 8000000 for 9000
+ 22408 strings out of 492649
+ 437769 string characters out of 6129622
+ 592264 words of memory out of 5000000
+ 25747 multiletter control sequences out of 15000+600000
+ 67190 words of font info for 64 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,17n,71p,836b,1452s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}</usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmmi12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmr17.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmri12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmss17.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmsy10.pfb>
-Output written on main.pdf (1 page, 168027 bytes).
+ 60i,17n,71p,832b,1442s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmmi12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmr17.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmss17.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmsy10.pfb>
+Output written on /Users/dhruv/Projects/PHD_projs/annealing-comparision/poster/main.pdf (1 page, 1805856 bytes).
 PDF statistics:
- 72 PDF objects out of 1000 (max. 8388607)
- 51 compressed objects within 1 object stream
- 7 named destinations out of 1000 (max. 500000)
- 59 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 70 PDF objects out of 1000 (max. 8388607)
+ 44 compressed objects within 1 object stream
+ 3 named destinations out of 1000 (max. 500000)
+ 74 words of extra memory for PDF output out of 10000 (max. 10000000)
 

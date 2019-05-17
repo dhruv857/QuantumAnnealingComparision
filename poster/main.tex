@@ -109,17 +109,17 @@ The goals of this research project is to:
 
 \begin{block}{Introduction}
 
-Lorem ipsum dolor \textbf{sit amet}, consectetur adipiscing elit. Sed commodo molestie porta. Sed ultrices scelerisque sapien ac commodo. Donec ut volutpat elit. Sed laoreet accumsan mattis. Integer sapien tellus, auctor ac blandit eget, sollicitudin vitae lorem. Praesent dictum tempor pulvinar. Suspendisse potenti. Sed tincidunt varius ipsum, et porta nulla suscipit et. Etiam congue bibendum felis, ac dictum augue cursus a. \textbf{Donec} magna eros, iaculis sit amet placerat quis, laoreet id est. In ut orci purus, interdum ornare nibh. Pellentesque pulvinar, nibh ac malesuada accumsan, urna nunc convallis tortor, ac vehicula nulla tellus eget nulla. Nullam lectus tortor, \textit{consequat tempor hendrerit} quis, vestibulum in diam. Maecenas sed diam augue.
+    Quantum computing is an up and coming technology which has gained a lot of potential and advancement in recent times. With companies like IBM, D-Wave, Google etc. allowing public access to quantum computing resources and limitation on different approaches, there are numerous different algorithms and use cases that can be implemented and quantum supremacy over classical computing be achieved. I accessed different platforms and approaches of quantum computing. Since gate based quantum computing has limited number of quantum bits or qubits, I was particularly interested in quantum annealing approach. 
 
-This statement requires citation \cite{Smith:2012qr}.
+    I researched the math of quantum annealing and implement it on D-Wave and Rigetti Systems quantum computer.
 
 \end{block}
 
 %------------------------------------------------
 
 \begin{figure}
-\includegraphics[width=0.8\linewidth]{placeholder.jpg}
-\caption{Figure caption}
+\includegraphics[width=0.8\linewidth]{uqc.png}
+\caption{Universal Quantum Computer}
 \end{figure}
 
 %----------------------------------------------------------------------------------------
@@ -138,25 +138,22 @@ This statement requires citation \cite{Smith:2012qr}.
 %	MATERIALS
 %----------------------------------------------------------------------------------------
 
-\begin{block}{Materials}
+\begin{block}{Universal Quantum Computer}
 
-The following materials were required to complete the research:
+A universal quantum computer is one where gate model approach can be mapped to other approaches in polynomial time. Various approaches to quantum computing are:
 
 \begin{itemize}
-\item Curabitur pellentesque dignissim
-\item Eu facilisis est tempus quis
-\item Duis porta consequat lorem
-\item Eu facilisis est tempus quis
+\item Gate Based
+\item Measurement Based
+\item Topological
+\item Adiabatic
 \end{itemize}
 
-The materials were prepared according to the steps outlined below:
+D-Wave works on adiabatic quantum computing using quantum annealing. It has 2038 qubits. 
 
-\begin{enumerate}
-\item Curabitur pellentesque dignissim
-\item Eu facilisis est tempus quis
-\item Duis porta consequat lorem
-\item Curabitur pellentesque dignissim
-\end{enumerate}
+Rigetti's quantum computer works on gate based model and has a comcept of lattice, where a lattice is connected qubits which can go upto 18. 
+
+
 
 \end{block}
 
@@ -170,9 +167,15 @@ The materials were prepared according to the steps outlined below:
 %	METHODS
 %----------------------------------------------------------------------------------------
 
-\begin{block}{Methods}
+\begin{block}{Quantum Annealing}
 
-Lorem ipsum dolor \textbf{sit amet}, consectetur adipiscing elit. Sed laoreet accumsan mattis. Integer sapien tellus, auctor ac blandit eget, sollicitudin vitae lorem. Praesent dictum tempor pulvinar. Suspendisse potenti. Sed tincidunt varius ipsum, et porta nulla suscipit et. Etiam congue bibendum felis, ac dictum augue cursus a. \textbf{Donec} magna eros, iaculis sit amet placerat quis, laoreet id est. In ut orci purus, interdum ornare nibh. Pellentesque pulvinar, nibh ac malesuada accumsan, urna nunc convallis tortor, ac vehicula nulla tellus eget nulla. Nullam lectus tortor, \textit{consequat tempor hendrerit} quis, vestibulum in diam. Maecenas sed diam augue.
+In quantum annealing, we simulate the problem and all possible outcomes for a given problem are calculated. The soultion is based on minima of the nenrgy graph of the quantum system. To provide bias, magnetic fields are applied, this bias being the constraints we want our solution to satisfy.
+
+Quantum annealing uses hamiltonian framework, the system must remain in ground state during simulation and operation. Hamiltomian framework is given by:
+\begin{multline*}
+    \mathcal{H}_s(s) = \frac{-1}{2} \sum_i \Delta (s) \sigma_i^x   + \epsilon(s) ( - \sum_i h_i \sigma_i^z + \sum_{i<j} J_{ij}  \sigma_i^z \sigma_j^z)
+\end{multline*}
+
 
 \end{block}
 
@@ -188,7 +191,9 @@ Lorem ipsum dolor \textbf{sit amet}, consectetur adipiscing elit. Sed laoreet ac
 
 \begin{alertblock}{Important Result}
 
-Lorem ipsum dolor \textbf{sit amet}, consectetur adipiscing elit. Sed commodo molestie porta. Sed ultrices scelerisque sapien ac commodo. Donec ut volutpat elit.
+On D-Wave, the results were observed, after 20 runs, the results were at different energy levels, though consistent in terms of factors. 
+
+Hybrid approach on Rigetti was not finished.
 
 \end{alertblock} 
 
@@ -198,31 +203,23 @@ Lorem ipsum dolor \textbf{sit amet}, consectetur adipiscing elit. Sed commodo mo
 
 \begin{column}{\onecolwid} % The first column within column 2 (column 2.1)
 
-%----------------------------------------------------------------------------------------
-%	MATHEMATICAL SECTION
-%----------------------------------------------------------------------------------------
 
-\begin{block}{Mathematical Section}
 
-Nam quis odio enim, in molestie libero. Vivamus cursus mi at nulla elementum sollicitudin. Nam quis odio enim, in molestie libero. Vivamus cursus mi at nulla elementum sollicitudin.
+\begin{block}{D-Wave}
+
+For adiabatic quantum computing using quantum annealing, integer factoring was implemented based on D-Wave using their example sample given on LEAP. 
+
+\begin{enumerate}
+\item Formulate the problem as constraint satisfaction problem.
+\item Convert the model to binary quabratic model
+\item Run on quantum processing unit.
+\item Observe the results for factoring from 1 to 61.
+\end{enumerate}
   
-\begin{equation}
-E = mc^{2}
-\label{eqn:Einstein}
-\end{equation}
-
-Nam quis odio enim, in molestie libero. Vivamus cursus mi at nulla elementum sollicitudin. Nam quis odio enim, in molestie libero. Vivamus cursus mi at nulla elementum sollicitudin.
-
-\begin{equation}
-\cos^3 \theta =\frac{1}{4}\cos\theta+\frac{3}{4}\cos 3\theta
-\label{eq:refname}
-\end{equation}
-
-Nam quis odio enim, in molestie libero. Vivamus cursus mi at nulla elementum sollicitudin. Nam quis odio enim, in molestie libero. Vivamus cursus mi at nulla elementum sollicitudin.
-
-\begin{equation}
-\kappa =\frac{\xi}{E_{\mathrm{max}}} %\mathbb{ZNR}
-\end{equation}
+\begin{figure}
+    \includegraphics[width=0.8\linewidth]{dwaveresult.png}
+    \caption{D-Wave result for a large number}
+    \end{figure}
 
 \end{block}
 
@@ -236,30 +233,17 @@ Nam quis odio enim, in molestie libero. Vivamus cursus mi at nulla elementum sol
 %	RESULTS
 %----------------------------------------------------------------------------------------
 
-\begin{block}{Results}
+\begin{block}{Rigetti}
 
+
+On Rigetti, using their FOrest SDK and pyquil, the implementation was not finised. The figure below shows solution graph for a sample problem on Rigetti.
 \begin{figure}
-\includegraphics[width=0.8\linewidth]{placeholder.jpg}
-\caption{Figure caption}
+\includegraphics[width=0.8\linewidth]{rigettisampler.png}
+\caption{Sample Rigetti result}
 \end{figure}
 
-Nunc tempus venenatis facilisis. Curabitur suscipit consequat eros non porttitor. Sed a massa dolor, id ornare enim:
-
-\begin{table}
-\vspace{2ex}
-\begin{tabular}{l l l}
-\toprule
-\textbf{Treatments} & \textbf{Response 1} & \textbf{Response 2}\\
-\midrule
-Treatment 1 & 0.0003262 & 0.562 \\
-Treatment 2 & 0.0015681 & 0.910 \\
-Treatment 3 & 0.0009271 & 0.296 \\
-\bottomrule
-\end{tabular}
-\caption{Table caption}
-\end{table}
-
 \end{block}
+
 
 %----------------------------------------------------------------------------------------
 
@@ -277,9 +261,13 @@ Treatment 3 & 0.0009271 & 0.296 \\
 %	CONCLUSION
 %----------------------------------------------------------------------------------------
 
-\begin{block}{Conclusion}
+\begin{block}{Gates for Quantum Computer}
 
-Nunc tempus venenatis facilisis. \textbf{Curabitur suscipit} consequat eros non porttitor. Sed a massa dolor, id ornare enim. Fusce quis massa dictum tortor \textbf{tincidunt mattis}. Donec quam est, lobortis quis pretium at, laoreet scelerisque lacus. Nam quis odio enim, in molestie libero. Vivamus cursus mi at \textit{nulla elementum sollicitudin}.
+\begin{figure}
+    \includegraphics[width=0.8\linewidth]{gates.png}
+    \caption{Quantum Computing Gates}
+    \end{figure}
+    
 
 \end{block}
 
@@ -298,17 +286,6 @@ Maecenas ultricies feugiat velit non mattis. Fusce tempus arcu id ligula varius 
 
 \end{block}
 
-%----------------------------------------------------------------------------------------
-%	REFERENCES
-%----------------------------------------------------------------------------------------
-
-\begin{block}{References}
-
-\nocite{*} % Insert publications even if they are not cited in the poster
-\small{\bibliographystyle{unsrt}
-\bibliography{sample}\vspace{0.75in}}
-
-\end{block}
 
 %----------------------------------------------------------------------------------------
 %	ACKNOWLEDGEMENTS
@@ -318,7 +295,7 @@ Maecenas ultricies feugiat velit non mattis. Fusce tempus arcu id ligula varius 
 
 \begin{block}{Acknowledgements}
 
-\small{\rmfamily{Nam mollis tristique neque eu luctus. Suspendisse rutrum congue nisi sed convallis. Aenean id neque dolor. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.}} \\
+\small{\rmfamily{Special thanks to Dr. Juan Shan, Dr. Charles Tappert, Dr. Ronald Frank, Dr. Stephan Barabasi and Rigetti's team(for providing access and credits to the system).}} \\
 
 \end{block}
 
@@ -332,16 +309,15 @@ Maecenas ultricies feugiat velit non mattis. Fusce tempus arcu id ligula varius 
 \begin{alertblock}{Contact Information}
 
 \begin{itemize}
-\item Web: \href{http://www.university.edu/smithlab}{http://www.university.edu/smithlab}
-\item Email: \href{mailto:john@smith.com}{john@smith.com}
-\item Phone: +1 (000) 111 1111
+\item Web: \href{http://github.com/dhruv857}{http://github.com/dhruv857}
+\item Email: \href{mailto:jdgandhi@pace.edu}{dgandhi@gace.edu}
 \end{itemize}
 
 \end{alertblock}
 
 \begin{center}
 \begin{tabular}{ccc}
-\includegraphics[width=0.4\linewidth]{logo.png} & \hfill & \includegraphics[width=0.4\linewidth]{logo.png}
+\includegraphics[width=0.4\linewidth]{seidenberg.jpg} 
 \end{tabular}
 \end{center}
 
